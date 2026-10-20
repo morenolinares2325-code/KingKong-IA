@@ -1,10 +1,7 @@
-﻿venv/
-env/
-__pycache__/
+﻿__pycache__/
 *.pyc
-.DS_Store
-Thumbs.db
-*.tar.gz
-*.bin
-*.gguf
-.env
+.streamlit/
+vector_db/*.pkl
+documentos/*/*.pdf
+documentos/*/*.txt
+!documentos/*/.gitkeep
